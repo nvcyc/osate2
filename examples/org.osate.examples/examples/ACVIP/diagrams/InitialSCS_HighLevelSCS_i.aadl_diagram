@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="6f65b5ba-d5a2-4ebb-9597-e9a63e17c9b0" manual="true">
+    <element uuid="5c000eef-ae92-4041-b66f-505d7351b4c0" manual="true">
+      <element uuid="417ab34c-60b7-4aea-a56e-09a3a1648ff4" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c1</seg>
+      </bo>
+      <bendpoints>
+        <point x="128.0" y="86.5"/>
+        <point x="140.0" y="86.5"/>
+      </bendpoints>
+    </element>
+    <element uuid="30660d47-6eea-4797-a1ff-18e44dae4050" manual="true">
+      <element uuid="82258e3a-b673-4d37-bdd6-80d69b216c24" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c2</seg>
+      </bo>
+      <bendpoints>
+        <point x="267.0" y="86.5"/>
+        <point x="279.0" y="86.5"/>
+      </bendpoints>
+    </element>
+    <element uuid="afd1c19c-377e-436c-b872-3d9c22201f48" manual="true">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element uuid="b9c2ed25-8950-4363-ae30-e2a30ef34a7d" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>brake1</seg>
+      </bo>
+      <position x="271.0" y="57.0"/>
+      <size width="92.0" height="35.0"/>
+    </element>
+    <element uuid="bd3da1b2-562c-4430-ac2d-6bb428f49310" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>controller1</seg>
+      </bo>
+      <position x="132.0" y="57.0"/>
+      <size width="119.0" height="35.0"/>
+    </element>
+    <element uuid="1b6adedb-4609-4e64-b23a-dbc8265a8b91" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>sensor1</seg>
+      </bo>
+      <position x="12.0" y="57.0"/>
+      <size width="100.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>HighLevelSCS.i</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="375.0" height="104.0"/>
+  </element>
+  <config type="custom" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>InitialSCS::HighLevelSCS.i</seg>
+    </context>
+  </config>
+</diagram:Diagram>
