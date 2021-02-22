@@ -10,6 +10,8 @@ capabilities of OSATE:
 
 This model will be incrementally built upon to demonstrate multiple levels of complexity within an AADL model, as well as the ability to run an analysis on a model early in the development process. As the model becomes more complex, the same analysis can be rerun to ensure the project is staying on track and more analyses will become valuable to be run on the model.
 
+More information on the Architecture Centric Virtual Integration Process (ACVIP) can be found via a conference paper from [SEI's Digital Library](https://resources.sei.cmu.edu/asset_files/ConferencePaper/2019_021_001_634975.pdf). 
+
 This model and README is based on OSATE 2.9.1.
 
 ### Organization of the example
